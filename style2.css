@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+.header {
+    position: absolute;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 25px;
+}
+.header__logo {
+    width: 44px;
+    height: 44px;
+}
+.nav {
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+.intro {
+    height: 100vh;
+    background: url(img/bg-image.jpg) no-repeat center;
+    background-size: cover;
+}
+.navAbout {
+    position: relative;
+    width: 38px;
+    height: 20px;
+}
