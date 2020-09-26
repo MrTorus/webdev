@@ -289,6 +289,50 @@ input[name="r"] {
     line-height: 140%;
     color: #4E4E4E;
 }
+.section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 524px;
+    background: url(img/section5Background.png) no-repeat center;
+    background-size: cover;
+}
+.searchSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.section5Input {
+    width: 340px;
+    height: 46px;
+    border: none;
+}
+.section5button {
+    width: 66px;
+    height: 46px;
+    border: none;
+    background: #00AFDB;
+    cursor: pointer;
+}
+.section5button:hover, .section5button:focus, .section5button:active {
+    background: #007a98;
+}
+.section5Tittle {
+    margin: 0 auto;
+    width: 480px;
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
 
 
