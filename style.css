@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    position: absolute;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
+    margin: 0 auto;
+    padding-top: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+}
+.intro {
+    height: 100vh;
+    background: url(img/bg-image.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 180px;
+}
+.navLogo a {
+    text-decoration: none;
+    width: 38px;
+    height: 20px;
+    color: #ffffff;
+    opacity: 50%;
+}
+.navLogo a:hover {
+    opacity: 100%;
+}
+.header__logo {
+    width: 44px;
+    height: 44px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.tittle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
+}
+.intro__subtittle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    max-width: 504px;
+    color: #FFFFFF;
+}
+.getStart {
+    cursor: pointer;
+    padding: 15px, 47px;
+    width: 184px;
+    height: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 0;
+}
+.getStart:hover, .getStart:focus, .getStart:active {
+    background: #007a98;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+    width: 170px;
+    height: 20px;
+}
+.socialLogo {
+  background-color: transparent;
+  opacity: 50%;
+  border: 0;
+}
+.socialLogo:hover {
+    opacity: 100%;
+}
+    
+  
+
+
+
+
+
