@@ -333,8 +333,99 @@ input[name="r"] {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.section6 {
+    height: 464px;
+    background:  #FFFFFF no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.section6Wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section6Tittle {
+    width: 350px;
+    height: 28px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+}
+.section6Intro {
+    width: 480px;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+}
+.section6Button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+.AppleStore {
+    cursor: pointer;
+    padding: 15px, 47px;
+    width: 127px;
+    height: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 0;
+}
+.AppleLogo {
+    width: 59px;
+    height: 46px;
+    border: none;
+    background: #009CC2;
+}
+.PlayMarket {
+    cursor: pointer;
+    padding: 15px, 47px;
+    width: 127px;
+    height: 46px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #00AFDB;
+    border: 0;
+}
+.AndroidLogo {
+    width: 59px;
+    height: 46px;
+    border: none;
+    background: #009CC2;
+}
+.AppleButton {
+    display: flex;
 
+}
+.AndroidButton {
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
